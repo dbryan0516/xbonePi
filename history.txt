@@ -1,0 +1,394 @@
+    1  ls
+    2  clear
+    3  ls
+    4  sudo
+    5  export
+    6  ls
+    7  cd Desktop/
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd pi/
+   12  ls
+   13  cd Documents/
+   14  ls
+   15  cd ..
+   16  logout
+   17  cd RetroPie-Setup/
+   18  chmod +x retropie_setup.sh 
+   19  ls
+   20  sudo ./retropie_setup.sh 
+   21  sudo apt-get install xboxdrv
+   22  startx
+   23  ifconfig
+   24  sudo reboot
+   25  pwd
+   26  ls
+   27  cd RetroPie-Setup/
+   28  ls
+   29  sudo ./retropie_setup.sh 
+   30  sudo reboot
+   31  ls
+   32  cd RetroPie
+   33  ls
+   34  cd ..
+   35  cd RetroPie-Setup/
+   36  ls
+   37  cd tools/
+   38  ls
+   39  cd sdcard/
+   40  ls
+   41  cd ..
+   42  ls
+   43  sudo ./retropie_packages.sh 
+   44  sudo chmod +x ./retropie_packages.sh 
+   45  sudo ./retropie_packages.sh 
+   46  ls
+   47  cd RetroPie-Setup/
+   48  ls
+   49  sudo chmod +x ./retropie_packages.sh 
+   50  sudo ./retropie_packages.sh 
+   51  chmod +x ./retropie_packages.sh 
+   52  sudo ./retropie_packages.sh 
+   53  chmod +x retropie_packages.sh 
+   54  sudo ./retropie_packages.sh 
+   55  sudo ./retropie_packages.sh 830
+   56  ls -al
+   57  cd tmp
+   58  ls -al
+   59  cd build/
+   60  ls -al
+   61  cd ..
+   62  ls -al
+   63  cd tools/
+   64  ls -al
+   65  cd ..
+   66  ls -al
+   67  sudo ./retropie_setup.sh 
+   68  ls
+   69  ll
+   70  ls -al
+   71  cd RetroPie
+   72  ls
+   73  ls -al
+   74  cd ..
+   75  ls -al
+   76  cd RetroPie-Setup/
+   77  ls -al
+   78  sudo ./retropie_setup.sh 
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd RetroPie
+   83  ls
+   84  ls -al
+   85  cd roms/
+   86  ls
+   87  cd ..
+   88  cd RetroPie-Setup/tools/
+   89  ls
+   90  ls -al
+   91  cd ..
+   92  ls
+   93  ls -al
+   94  cd ..
+   95  ls -al
+   96  cd home/pi/
+   97  ls
+   98  startx
+   99  ifconfig
+  100  xdrv
+  101  xboxdrv --trigger-as-button --id 0 --led 2 --deadzone 4000 --silent & sleep 1
+  102  off
+  103  logout
+  104  dir
+  105  tree
+  106  grep xboxdrv
+  107  ls
+  108  reboot
+  109  ls
+  110  cd Documents/
+  111  ls
+  112  cd ..
+  113  lks
+  114  ls
+  115  cd RetroPie
+  116  ls
+  117  cd BIOS/
+  118  ls
+  119  ls -al
+  120  cd ..
+  121  ls
+  122  cd roms/
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd RetroPie-Setup/
+  127  ls
+  128  ./ retropie_packages.sh 
+  129  sudo ./retropie_packages.sh 
+  130  cd ..
+  131  xboxdrv
+  132  xboxdrv --help
+  133  ll
+  134  alias ll="ls -alF"
+  135  ll
+  136  cd ..
+  137  ll
+  138  cd ..
+  139  ll
+  140  cd devv
+  141  cd dev
+  142  ll
+  143  ls
+  144  sudo restart
+  145  sudo reboot
+  146  ll
+  147  alias ll="ls -alF"
+  148  ll
+  149  cd RetroPie
+  150  ll
+  151  cd ../RetroPie-Setup/
+  152  ll
+  153  sudo ./retropie_setup.sh 
+  154  cd ../../pi/../../dev/
+  155  ll
+  156  ls
+  157  sudo xboxdrv
+  158  cd
+  159  ll
+  160  cd RetroPie-Setup/
+  161  sudo ./retropie_setup.sh 
+  162  lsmod
+  163  lsmod | drep xpad
+  164  lsmod | grep xpad
+  165  rmmod xpad
+  166  sudo rmmod xpad
+  167  lsmod | grep xpad
+  168  cd ../../../
+  169  ls dev/input/
+  170  evtest dev/input/event0
+  171  sudo evtest dev/input/event0
+  172  cd dev/input/
+  173  ll
+  174  sudo xboxdrv
+  175  jstest
+  176  evtest
+  177  jstest js1
+  178  jstest js2
+  179  sudo xboxdrv
+  180  ll
+  181  jstest event0
+  182  jstest event1
+  183  jstest event2
+  184  jstest event3
+  185  jstest event4
+  186  ll
+  187  evtest
+  188  sudo apt-get evtest
+  189  sudo apt-get install evtest
+  190  startx
+  191  ifconfig 
+  192  ifconfig eth0
+  193  alias ll="ls -alF"
+  194  ll
+  195  sudo apt-get install evtest
+  196  evtest
+  197  ifconfig
+  198  history
+  199  evtest
+  200  xboxdrv
+  201  lsmod
+  202  lsmod | grep xpad
+  203  lsmod
+  204  sudo ps aux
+  205  sudo ps aux | grep xoxdrv
+  206  systemctl status
+  207  cd 
+  208  ll
+  209  cd RetroPie-Setup/
+  210  ll
+  211  sudo ./retropie_setup.sh 
+  212  sudo reoot
+  213  sudo reboot
+  214  cd ../..
+  215  ll
+  216  alias ll="ls -alF"
+  217  ll
+  218  cd dev/
+  219  ll
+  220  ls
+  221  grep raspi-blacklist.config
+  222  grep raspi-blacklist.conf
+  223  sudo nano /etc/modprobe.d/raspi-blacklist.conf
+  224  ll
+  225  logout
+  226  cd ../..
+  227  ll
+  228  cd /
+  229  ll
+  230  cd etc/
+  231  ll
+  232  less rc.local 
+  233  grep xboxdrv
+  234  sudo grep -r "xboxdrv" .
+  235  alias 
+  236  sudo egrep -r "xboxdrv" .
+  237  sudo fgrep -r "xboxdrv" .
+  238  cd ..
+  239  sudo grep -r "xboxdrv" .
+  240  sudo grep -r "xboxdrv" . | grep "xboxdrv"
+  241  ll
+  242  cd dev/
+  243  ll
+  244  ls
+  245  cd input/
+  246  ll
+  247  evtest
+  248  jstest
+  249  jstest j2
+  250  jstest j1
+  251  ll
+  252  jstest js1
+  253  evtest 
+  254  ll
+  255  evtest 
+  256  ll
+  257  python
+  258  cd ../..
+  259  ll
+  260  sudo pip install evdev
+  261  sudo apt-get install python2.7
+  262  sudo apt-get update python
+  263  sudo apt-get upgrade python
+  264  sudo apt-get install python
+  265  sudo apt-get install python2.7
+  266  sudo apt-get upgrade
+  267  sudo apt-get update
+  268  sudo pip install evdev
+  269  sudo apt-get install libpython2.7-dev python-numpy
+  270  sudo pip install evdev
+  271  python
+  272  fg
+  273  python ~/Desktop/test.py 
+  274  chmod +x ~/Desktop/testScript.sh 
+  275  ~/Desktop/testScript.sh 
+  276  cd ~/Desktop/
+  277  ll
+  278  ./testScript.sh 
+  279  cd ..
+  280  ll
+  281  cd bin/
+  282  l
+  283  ll
+  284  ls
+  285  cd ..
+  286  ll
+  287  cd sbin/
+  288  ll
+  289  ls
+  290  cd ..
+  291  ll
+  292  cd root/
+  293  sudo root
+  294  sudo cd root
+  295  su root
+  296  ll
+  297  cd l
+  298  cd lib/
+  299  ll
+  300  cd ..
+  301  ll
+  302  cd bin/
+  303  ll
+  304  ls
+  305  cd ..
+  306  grep python
+  307  grep -r python .
+  308  cd etc/
+  309  ll
+  310  cd python
+  311  ll
+  312  cd ../python2.7/
+  313  ll
+  314  cd ..
+  315  cd python3
+  316  ll
+  317  cd ..
+  318  ll
+  319  cd ..
+  320  ll
+  321  grep -r python .
+  322  sudo grep -r python .
+  323  ll
+  324  cd usr/
+  325  ll
+  326  cd bin/
+  327  ll
+  328  less
+  329  ls
+  330  ~/Desktop/testScript.sh 
+  331  sudo ~/Desktop/testScript.sh cd
+  332  cd ~/Desktop/
+  333  ll
+  334  python testScript.py 
+  335  python capabilities.py 
+  336  logout
+  337  clear
+  338  ll
+  339  cd Desktop/
+  340  python testScript.py 
+  341  ll
+  342  pico
+  343  pico testScript.py
+  344  less notes.txt 
+  345  cd /
+  346  ll
+  347  cd etc/
+  348  ls
+  349  less rc.local 
+  350  rm rc.local 
+  351  sudo rm rc.local 
+  352  ls
+  353  sudo reboot
+  354  ll
+  355  cd Desktop/
+  356  ll
+  357  python testScript.py 
+  358  cd Desktop/
+  359  ll
+  360  python test.py
+  361  ll
+  362  python test.py
+  363  python
+  364  ll
+  365  sudo pip install joystick
+  366  python
+  367  sudo pip install numpy
+  368  sudo pip install matplotlib
+  369  sudo pip install joystick
+  370  python
+  371  ll
+  372  python controllerConfig.py 
+  373  python controllerConfig.py /dev/input/event2
+  374  less xboxconfig.txt 
+  375  python test.py 
+  376  less test.py 
+  377  python test.py 
+  378  xboxdrv --help
+  379  python controllerConfig.py /dev/input/event2
+  380  cat xboxconfig.txt 
+  381  xboxdrv --evdev "/dev/input/event2" --evdev-keymap "BTN_A=a,BTN_TR2=rt,BTN_B=b,BTN_TL=lb,BTN_THUMBR=tr,BTN_SELECT=back,BTN_START=start,BTN_TL2=lt,BTN_THUMBL=tl,BTN_TR=rb,BTN_WEST=y,BTN_NORTH=x,BTN_MODE=guide" --evdev-absmap "ABS_Y=y1,ABS_RX=x2,ABS_X=x1,ABS_RY=y2" --axismap "-y1=y1,-y2=y2" --mimic-xpad --silent
+  382  xboxdrv --evdev "/dev/input/event2" --evdev-keymap "BTN_A=a,BTN_TR2=rt,BTN_B=b,BTN_TL=lb,BTN_THUMBR=tr,BTN_SELECT=back,BTN_START=start,BTN_TL2=lt,BTN_THUMBL=tl,BTN_TR=rb,BTN_Y=y,BTN_X=x,BTN_MODE=guide" --evdev-absmap "ABS_Y=y1,ABS_RX=x2,ABS_X=x1,ABS_RY=y2" --axismap "-y1=y1,-y2=y2" --mimic-xpad --silent
+  383  sudo apt-get install uinput
+  384  sudo apt-get install joydev
+  385  ./xboxdrv -v --no-input
+  386  sudo xboxdrv -v --no-input
+  387  sudo xboxdrv -v --no-uinput
+  388  ll
+  389  python test.py
+  390  sudo shutdown now
+  391  clear
+  392  ll
+  393  cd Desktop/
+  394  history > history.txt

@@ -1,0 +1,45 @@
+Start: 
+code 315 type 1 value 1 
+
+Select: 
+code 314 type 1 value 1 
+
+Guide: 
+code 316 type 1 value 1 
+
+A: 
+code 304 type 1 value 1 
+
+B: 
+code 305 type 1 value 1 
+
+X: 
+code 307 type 1 value 1 
+
+Y: 
+code 308 type 1 value 1 
+
+R1: 
+code 311 type 1 value 1 
+
+L1: 
+code 310 type 1 value 1 
+
+R2: 
+code 313 type 1 value 1 
+
+L2: 
+code 312 type 1 value 1 
+
+D Up: 
+code 17 type 3 value -1 
+
+D Down: 
+code 17 type 3 value 1 
+
+D Left: 
+code 16 type 3 value -1 
+
+D Right: 
+code 16 type 3 value 1 
+

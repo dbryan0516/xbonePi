@@ -1,0 +1,53 @@
+cat /proc/bus/input/devices
+
+event 3
+
+lHorizontal=ABS_X		//correct
+lVertical=ABS_Y			//incorrect
+rHorizontal=ABS_RX		//correct
+rVertical=ABS_RY		//incorrect	
+horizontal=ABS_HAT0X	//correct, left is neg 1, right is pos 1
+vertical=ABS_HAT0Y		//incorrect
+
+//buttons
+a=BTN_SOUTH
+b=BTN_EAST
+x=BTN_NORTH
+y=BTN_WEST
+LB=BTN_TL
+RB=BTN_TR
+LT=BTN_TL2
+RT=BTN_TR2
+select=BTN_SELECT
+start=BTN_START
+menu=BTN_MODE
+lClick=BTN_THUMBL
+rClick=BTN_THUMBR
+
+/*___________________________________________________________________________________________*/
+
+js1
+
+//Axes
+lHorizontal=0 	//correct
+lVertical=1 	//incorrect
+rHorizontal=2 	//correct
+rVertical=3 	//incorrect
+//dpad
+horizontal=4 	//correct, left is negative, right is positive
+vertical=5 		//incorrect, backwards. currently, up is negative down is positive
+
+//Buttons
+a=0
+b=1
+x=2
+y=3
+LB=4
+RB=5
+LT=6
+RT=7
+select=8
+start=9
+menu=10
+lClick=11
+rClick=12
